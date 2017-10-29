@@ -1,0 +1,1437 @@
+{
+  "headers": [
+     {
+        "type": "namespace",
+        "namespaceScope": "c_glib",
+        "identifier": "TTest"
+     },
+     {
+        "type": "namespace",
+        "namespaceScope": "java",
+        "identifier": "thrift.test"
+     },
+     {
+        "type": "namespace",
+        "namespaceScope": "cpp",
+        "identifier": "thrift.test"
+     },
+     {
+        "type": "namespace",
+        "namespaceScope": "rb",
+        "identifier": "Thrift.Test"
+     },
+     {
+        "type": "namespace",
+        "namespaceScope": "perl",
+        "identifier": "ThriftTest"
+     },
+     {
+        "type": "namespace",
+        "namespaceScope": "csharp",
+        "identifier": "Thrift.Test"
+     },
+     {
+        "type": "namespace",
+        "namespaceScope": "js",
+        "identifier": "ThriftTest"
+     },
+     {
+        "type": "namespace",
+        "namespaceScope": "st",
+        "identifier": "ThriftTest"
+     },
+     {
+        "type": "namespace",
+        "namespaceScope": "py",
+        "identifier": "ThriftTest"
+     },
+     {
+        "type": "namespace",
+        "namespaceScope": "py.twisted",
+        "identifier": "ThriftTest"
+     },
+     {
+        "type": "namespace",
+        "namespaceScope": "go",
+        "identifier": "thrifttest"
+     },
+     {
+        "type": "namespace",
+        "namespaceScope": "php",
+        "identifier": "ThriftTest"
+     },
+     {
+        "type": "namespace",
+        "namespaceScope": "delphi",
+        "identifier": "Thrift.Test"
+     },
+     {
+        "type": "namespace",
+        "namespaceScope": "cocoa",
+        "identifier": "ThriftTest"
+     },
+     {
+        "type": "namespace",
+        "namespaceScope": "lua",
+        "identifier": "ThriftTest"
+     },
+     {
+        "type": "namespace",
+        "namespaceScope": "xsd",
+        "identifier": "test"
+     },
+     {
+        "type": "namespace",
+        "namespaceScope": "netcore",
+        "identifier": "ThriftAsync.Test"
+     },
+     {
+        "type": "namespace",
+        "namespaceScope": "noexist",
+        "identifier": "ThriftTest"
+     },
+     {
+        "type": "namespace",
+        "namespaceScope": "cpp.noexist",
+        "identifier": "ThriftTest"
+     },
+     {
+        "type": "namespace",
+        "namespaceScope": "*",
+        "identifier": "thrift.test"
+     }
+  ],
+  "definitions": [
+     {
+        "type": "enum",
+        "identifier": "Numberz",
+        "enumFields": [
+           {
+              "type": "enumField",
+              "identifier": "ONE",
+              "value": "1"
+           },
+           {
+              "type": "enumField",
+              "identifier": "TWO",
+              "value": null
+           },
+           {
+              "type": "enumField",
+              "identifier": "THREE",
+              "value": null
+           },
+           {
+              "type": "enumField",
+              "identifier": "FIVE",
+              "value": "5"
+           },
+           {
+              "type": "enumField",
+              "identifier": "SIX",
+              "value": null
+           },
+           {
+              "type": "enumField",
+              "identifier": "EIGHT",
+              "value": "8"
+           }
+        ]
+     },
+     {
+        "type": "const",
+        "filedType": "Numberz",
+        "identifier": "myNumberz",
+        "value": "Numberz.ONE"
+     },
+     {
+        "type": "typedef",
+        "definitionType": "i64",
+        "identifier": "UserId"
+     },
+     {
+        "type": "struct",
+        "identifier": "Bonk",
+        "fields": [
+           {
+              "id": "1",
+              "option": null,
+              "fieldType": "string",
+              "identifier": "message",
+              "defaultValue": null
+           },
+           {
+              "id": "2",
+              "option": null,
+              "fieldType": "i32",
+              "identifier": "type",
+              "defaultValue": null
+           }
+        ]
+     },
+     {
+        "type": "typedef",
+        "definitionType": {
+           "type": "map",
+           "keyFieldType": "string",
+           "valueFieldType": "Bonk"
+        },
+        "identifier": "MapType"
+     },
+     {
+        "type": "struct",
+        "identifier": "Bools",
+        "fields": [
+           {
+              "id": "1",
+              "option": null,
+              "fieldType": "bool",
+              "identifier": "im_true",
+              "defaultValue": null
+           },
+           {
+              "id": "2",
+              "option": null,
+              "fieldType": "bool",
+              "identifier": "im_false",
+              "defaultValue": null
+           }
+        ]
+     },
+     {
+        "type": "struct",
+        "identifier": "Xtruct",
+        "fields": [
+           {
+              "id": "1",
+              "option": null,
+              "fieldType": "string",
+              "identifier": "string_thing",
+              "defaultValue": null
+           },
+           {
+              "id": "4",
+              "option": null,
+              "fieldType": "i8",
+              "identifier": "byte_thing",
+              "defaultValue": null
+           },
+           {
+              "id": "9",
+              "option": null,
+              "fieldType": "i32",
+              "identifier": "i32_thing",
+              "defaultValue": null
+           },
+           {
+              "id": "11",
+              "option": null,
+              "fieldType": "i64",
+              "identifier": "i64_thing",
+              "defaultValue": null
+           }
+        ]
+     },
+     {
+        "type": "struct",
+        "identifier": "Xtruct2",
+        "fields": [
+           {
+              "id": "1",
+              "option": null,
+              "fieldType": "i8",
+              "identifier": "byte_thing",
+              "defaultValue": null
+           },
+           {
+              "id": "2",
+              "option": null,
+              "fieldType": "Xtruct",
+              "identifier": "struct_thing",
+              "defaultValue": null
+           },
+           {
+              "id": "3",
+              "option": null,
+              "fieldType": "i32",
+              "identifier": "i32_thing",
+              "defaultValue": null
+           }
+        ]
+     },
+     {
+        "type": "struct",
+        "identifier": "Xtruct3",
+        "fields": [
+           {
+              "id": "1",
+              "option": null,
+              "fieldType": "string",
+              "identifier": "string_thing",
+              "defaultValue": null
+           },
+           {
+              "id": "4",
+              "option": null,
+              "fieldType": "i32",
+              "identifier": "changed",
+              "defaultValue": null
+           },
+           {
+              "id": "9",
+              "option": null,
+              "fieldType": "i32",
+              "identifier": "i32_thing",
+              "defaultValue": null
+           },
+           {
+              "id": "11",
+              "option": null,
+              "fieldType": "i64",
+              "identifier": "i64_thing",
+              "defaultValue": null
+           }
+        ]
+     },
+     {
+        "type": "struct",
+        "identifier": "Insanity",
+        "fields": [
+           {
+              "id": "1",
+              "option": null,
+              "fieldType": {
+                 "type": "map",
+                 "keyFieldType": "Numberz",
+                 "valueFieldType": "UserId"
+              },
+              "identifier": "userMap",
+              "defaultValue": null
+           },
+           {
+              "id": "2",
+              "option": null,
+              "fieldType": {
+                 "type": "list",
+                 "fieldType": "Xtruct"
+              },
+              "identifier": "xtructs",
+              "defaultValue": null
+           }
+        ]
+     },
+     {
+        "type": "struct",
+        "identifier": "CrazyNesting",
+        "fields": [
+           {
+              "id": "1",
+              "option": null,
+              "fieldType": "string",
+              "identifier": "string_field",
+              "defaultValue": null
+           },
+           {
+              "id": "2",
+              "option": "optional",
+              "fieldType": {
+                 "type": "set",
+                 "fieldType": "Insanity"
+              },
+              "identifier": "set_field",
+              "defaultValue": null
+           },
+           {
+              "id": "3",
+              "option": "required",
+              "fieldType": {
+                 "type": "list",
+                 "fieldType": {
+                    "type": "map",
+                    "keyFieldType": {
+                       "type": "set",
+                       "fieldType": "i32"
+                    },
+                    "valueFieldType": {
+                       "type": "map",
+                       "keyFieldType": "i32",
+                       "valueFieldType": {
+                          "type": "set",
+                          "fieldType": {
+                             "type": "list",
+                             "fieldType": {
+                                "type": "map",
+                                "keyFieldType": "Insanity",
+                                "valueFieldType": "string"
+                             }
+                          }
+                       }
+                    }
+                 }
+              },
+              "identifier": "list_field",
+              "defaultValue": null
+           },
+           {
+              "id": "4",
+              "option": null,
+              "fieldType": "binary",
+              "identifier": "binary_field",
+              "defaultValue": null
+           }
+        ]
+     },
+     {
+        "type": "union",
+        "identifier": "SomeUnion",
+        "fields": [
+           {
+              "id": "1",
+              "option": null,
+              "fieldType": {
+                 "type": "map",
+                 "keyFieldType": "Numberz",
+                 "valueFieldType": "UserId"
+              },
+              "identifier": "map_thing",
+              "defaultValue": null
+           },
+           {
+              "id": "2",
+              "option": null,
+              "fieldType": "string",
+              "identifier": "string_thing",
+              "defaultValue": null
+           },
+           {
+              "id": "3",
+              "option": null,
+              "fieldType": "i32",
+              "identifier": "i32_thing",
+              "defaultValue": null
+           },
+           {
+              "id": "4",
+              "option": null,
+              "fieldType": "Xtruct3",
+              "identifier": "xtruct_thing",
+              "defaultValue": null
+           },
+           {
+              "id": "5",
+              "option": null,
+              "fieldType": "Insanity",
+              "identifier": "insanity_thing",
+              "defaultValue": null
+           }
+        ]
+     },
+     {
+        "type": "exception",
+        "identifier": "Xception",
+        "fields": [
+           {
+              "id": "1",
+              "option": null,
+              "fieldType": "i32",
+              "identifier": "errorCode",
+              "defaultValue": null
+           },
+           {
+              "id": "2",
+              "option": null,
+              "fieldType": "string",
+              "identifier": "message",
+              "defaultValue": null
+           }
+        ]
+     },
+     {
+        "type": "exception",
+        "identifier": "Xception2",
+        "fields": [
+           {
+              "id": "1",
+              "option": null,
+              "fieldType": "i32",
+              "identifier": "errorCode",
+              "defaultValue": null
+           },
+           {
+              "id": "2",
+              "option": null,
+              "fieldType": "Xtruct",
+              "identifier": "struct_thing",
+              "defaultValue": null
+           }
+        ]
+     },
+     {
+        "type": "struct",
+        "identifier": "EmptyStruct",
+        "fields": []
+     },
+     {
+        "type": "struct",
+        "identifier": "OneField",
+        "fields": [
+           {
+              "id": "1",
+              "option": null,
+              "fieldType": "EmptyStruct",
+              "identifier": "field",
+              "defaultValue": null
+           }
+        ]
+     },
+     {
+        "type": "service",
+        "identifier": "ThriftTest",
+        "extendIdentifier": null,
+        "functions": [
+           {
+              "type": "function",
+              "functionType": "void",
+              "identifier": "testVoid",
+              "oneway": null,
+              "args": [],
+              "throws": null
+           },
+           {
+              "type": "function",
+              "functionType": "string",
+              "identifier": "testString",
+              "oneway": null,
+              "args": [
+                 {
+                    "id": "1",
+                    "option": null,
+                    "fieldType": "string",
+                    "identifier": "thing",
+                    "defaultValue": null
+                 }
+              ],
+              "throws": null
+           },
+           {
+              "type": "function",
+              "functionType": "bool",
+              "identifier": "testBool",
+              "oneway": null,
+              "args": [
+                 {
+                    "id": "1",
+                    "option": null,
+                    "fieldType": "bool",
+                    "identifier": "thing",
+                    "defaultValue": null
+                 }
+              ],
+              "throws": null
+           },
+           {
+              "type": "function",
+              "functionType": "i8",
+              "identifier": "testByte",
+              "oneway": null,
+              "args": [
+                 {
+                    "id": "1",
+                    "option": null,
+                    "fieldType": "i8",
+                    "identifier": "thing",
+                    "defaultValue": null
+                 }
+              ],
+              "throws": null
+           },
+           {
+              "type": "function",
+              "functionType": "i32",
+              "identifier": "testI32",
+              "oneway": null,
+              "args": [
+                 {
+                    "id": "1",
+                    "option": null,
+                    "fieldType": "i32",
+                    "identifier": "thing",
+                    "defaultValue": null
+                 }
+              ],
+              "throws": null
+           },
+           {
+              "type": "function",
+              "functionType": "i64",
+              "identifier": "testI64",
+              "oneway": null,
+              "args": [
+                 {
+                    "id": "1",
+                    "option": null,
+                    "fieldType": "i64",
+                    "identifier": "thing",
+                    "defaultValue": null
+                 }
+              ],
+              "throws": null
+           },
+           {
+              "type": "function",
+              "functionType": "double",
+              "identifier": "testDouble",
+              "oneway": null,
+              "args": [
+                 {
+                    "id": "1",
+                    "option": null,
+                    "fieldType": "double",
+                    "identifier": "thing",
+                    "defaultValue": null
+                 }
+              ],
+              "throws": null
+           },
+           {
+              "type": "function",
+              "functionType": "binary",
+              "identifier": "testBinary",
+              "oneway": null,
+              "args": [
+                 {
+                    "id": "1",
+                    "option": null,
+                    "fieldType": "binary",
+                    "identifier": "thing",
+                    "defaultValue": null
+                 }
+              ],
+              "throws": null
+           },
+           {
+              "type": "function",
+              "functionType": "Xtruct",
+              "identifier": "testStruct",
+              "oneway": null,
+              "args": [
+                 {
+                    "id": "1",
+                    "option": null,
+                    "fieldType": "Xtruct",
+                    "identifier": "thing",
+                    "defaultValue": null
+                 }
+              ],
+              "throws": null
+           },
+           {
+              "type": "function",
+              "functionType": "Xtruct2",
+              "identifier": "testNest",
+              "oneway": null,
+              "args": [
+                 {
+                    "id": "1",
+                    "option": null,
+                    "fieldType": "Xtruct2",
+                    "identifier": "thing",
+                    "defaultValue": null
+                 }
+              ],
+              "throws": null
+           },
+           {
+              "type": "function",
+              "functionType": {
+                 "type": "map",
+                 "keyFieldType": "i32",
+                 "valueFieldType": "i32"
+              },
+              "identifier": "testMap",
+              "oneway": null,
+              "args": [
+                 {
+                    "id": "1",
+                    "option": null,
+                    "fieldType": {
+                       "type": "map",
+                       "keyFieldType": "i32",
+                       "valueFieldType": "i32"
+                    },
+                    "identifier": "thing",
+                    "defaultValue": null
+                 }
+              ],
+              "throws": null
+           },
+           {
+              "type": "function",
+              "functionType": {
+                 "type": "map",
+                 "keyFieldType": "string",
+                 "valueFieldType": "string"
+              },
+              "identifier": "testStringMap",
+              "oneway": null,
+              "args": [
+                 {
+                    "id": "1",
+                    "option": null,
+                    "fieldType": {
+                       "type": "map",
+                       "keyFieldType": "string",
+                       "valueFieldType": "string"
+                    },
+                    "identifier": "thing",
+                    "defaultValue": null
+                 }
+              ],
+              "throws": null
+           },
+           {
+              "type": "function",
+              "functionType": {
+                 "type": "set",
+                 "fieldType": "i32"
+              },
+              "identifier": "testSet",
+              "oneway": null,
+              "args": [
+                 {
+                    "id": "1",
+                    "option": null,
+                    "fieldType": {
+                       "type": "set",
+                       "fieldType": "i32"
+                    },
+                    "identifier": "thing",
+                    "defaultValue": null
+                 }
+              ],
+              "throws": null
+           },
+           {
+              "type": "function",
+              "functionType": {
+                 "type": "list",
+                 "fieldType": "i32"
+              },
+              "identifier": "testList",
+              "oneway": null,
+              "args": [
+                 {
+                    "id": "1",
+                    "option": null,
+                    "fieldType": {
+                       "type": "list",
+                       "fieldType": "i32"
+                    },
+                    "identifier": "thing",
+                    "defaultValue": null
+                 }
+              ],
+              "throws": null
+           },
+           {
+              "type": "function",
+              "functionType": "Numberz",
+              "identifier": "testEnum",
+              "oneway": null,
+              "args": [
+                 {
+                    "id": "1",
+                    "option": null,
+                    "fieldType": "Numberz",
+                    "identifier": "thing",
+                    "defaultValue": null
+                 }
+              ],
+              "throws": null
+           },
+           {
+              "type": "function",
+              "functionType": "UserId",
+              "identifier": "testTypedef",
+              "oneway": null,
+              "args": [
+                 {
+                    "id": "1",
+                    "option": null,
+                    "fieldType": "UserId",
+                    "identifier": "thing",
+                    "defaultValue": null
+                 }
+              ],
+              "throws": null
+           },
+           {
+              "type": "function",
+              "functionType": {
+                 "type": "map",
+                 "keyFieldType": "i32",
+                 "valueFieldType": {
+                    "type": "map",
+                    "keyFieldType": "i32",
+                    "valueFieldType": "i32"
+                 }
+              },
+              "identifier": "testMapMap",
+              "oneway": null,
+              "args": [
+                 {
+                    "id": "1",
+                    "option": null,
+                    "fieldType": "i32",
+                    "identifier": "hello",
+                    "defaultValue": null
+                 }
+              ],
+              "throws": null
+           },
+           {
+              "type": "function",
+              "functionType": {
+                 "type": "map",
+                 "keyFieldType": "UserId",
+                 "valueFieldType": {
+                    "type": "map",
+                    "keyFieldType": "Numberz",
+                    "valueFieldType": "Insanity"
+                 }
+              },
+              "identifier": "testInsanity",
+              "oneway": null,
+              "args": [
+                 {
+                    "id": "1",
+                    "option": null,
+                    "fieldType": "Insanity",
+                    "identifier": "argument",
+                    "defaultValue": null
+                 }
+              ],
+              "throws": null
+           },
+           {
+              "type": "function",
+              "functionType": "Xtruct",
+              "identifier": "testMulti",
+              "oneway": null,
+              "args": [
+                 {
+                    "id": "1",
+                    "option": null,
+                    "fieldType": "i8",
+                    "identifier": "arg0",
+                    "defaultValue": null
+                 },
+                 {
+                    "id": "2",
+                    "option": null,
+                    "fieldType": "i32",
+                    "identifier": "arg1",
+                    "defaultValue": null
+                 },
+                 {
+                    "id": "3",
+                    "option": null,
+                    "fieldType": "i64",
+                    "identifier": "arg2",
+                    "defaultValue": null
+                 },
+                 {
+                    "id": "4",
+                    "option": null,
+                    "fieldType": {
+                       "type": "map",
+                       "keyFieldType": "i16",
+                       "valueFieldType": "string"
+                    },
+                    "identifier": "arg3",
+                    "defaultValue": null
+                 },
+                 {
+                    "id": "5",
+                    "option": null,
+                    "fieldType": "Numberz",
+                    "identifier": "arg4",
+                    "defaultValue": null
+                 },
+                 {
+                    "id": "6",
+                    "option": null,
+                    "fieldType": "UserId",
+                    "identifier": "arg5",
+                    "defaultValue": null
+                 }
+              ],
+              "throws": null
+           },
+           {
+              "type": "function",
+              "functionType": "void",
+              "identifier": "testException",
+              "oneway": null,
+              "args": [
+                 {
+                    "id": "1",
+                    "option": null,
+                    "fieldType": "string",
+                    "identifier": "arg",
+                    "defaultValue": null
+                 }
+              ],
+              "throws": [
+                 {
+                    "id": "1",
+                    "option": null,
+                    "fieldType": "Xception",
+                    "identifier": "err1",
+                    "defaultValue": null
+                 }
+              ]
+           },
+           {
+              "type": "function",
+              "functionType": "Xtruct",
+              "identifier": "testMultiException",
+              "oneway": null,
+              "args": [
+                 {
+                    "id": "1",
+                    "option": null,
+                    "fieldType": "string",
+                    "identifier": "arg0",
+                    "defaultValue": null
+                 },
+                 {
+                    "id": "2",
+                    "option": null,
+                    "fieldType": "string",
+                    "identifier": "arg1",
+                    "defaultValue": null
+                 }
+              ],
+              "throws": [
+                 {
+                    "id": "1",
+                    "option": null,
+                    "fieldType": "Xception",
+                    "identifier": "err1",
+                    "defaultValue": null
+                 },
+                 {
+                    "id": "2",
+                    "option": null,
+                    "fieldType": "Xception2",
+                    "identifier": "err2",
+                    "defaultValue": null
+                 }
+              ]
+           },
+           {
+              "type": "function",
+              "functionType": "void",
+              "identifier": "testOneway",
+              "oneway": "oneway",
+              "args": [
+                 {
+                    "id": "1",
+                    "option": null,
+                    "fieldType": "i32",
+                    "identifier": "secondsToSleep",
+                    "defaultValue": null
+                 }
+              ],
+              "throws": null
+           }
+        ]
+     },
+     {
+        "type": "service",
+        "identifier": "SecondService",
+        "extendIdentifier": null,
+        "functions": [
+           {
+              "type": "function",
+              "functionType": "void",
+              "identifier": "blahBlah",
+              "oneway": null,
+              "args": [],
+              "throws": null
+           },
+           {
+              "type": "function",
+              "functionType": "string",
+              "identifier": "secondtestString",
+              "oneway": null,
+              "args": [
+                 {
+                    "id": "1",
+                    "option": null,
+                    "fieldType": "string",
+                    "identifier": "thing",
+                    "defaultValue": null
+                 }
+              ],
+              "throws": null
+           }
+        ]
+     },
+     {
+        "type": "struct",
+        "identifier": "VersioningTestV1",
+        "fields": [
+           {
+              "id": "1",
+              "option": null,
+              "fieldType": "i32",
+              "identifier": "begin_in_both",
+              "defaultValue": null
+           },
+           {
+              "id": "3",
+              "option": null,
+              "fieldType": "string",
+              "identifier": "old_string",
+              "defaultValue": null
+           },
+           {
+              "id": "12",
+              "option": null,
+              "fieldType": "i32",
+              "identifier": "end_in_both",
+              "defaultValue": null
+           }
+        ]
+     },
+     {
+        "type": "struct",
+        "identifier": "VersioningTestV2",
+        "fields": [
+           {
+              "id": "1",
+              "option": null,
+              "fieldType": "i32",
+              "identifier": "begin_in_both",
+              "defaultValue": null
+           },
+           {
+              "id": "2",
+              "option": null,
+              "fieldType": "i32",
+              "identifier": "newint",
+              "defaultValue": null
+           },
+           {
+              "id": "3",
+              "option": null,
+              "fieldType": "i8",
+              "identifier": "newbyte",
+              "defaultValue": null
+           },
+           {
+              "id": "4",
+              "option": null,
+              "fieldType": "i16",
+              "identifier": "newshort",
+              "defaultValue": null
+           },
+           {
+              "id": "5",
+              "option": null,
+              "fieldType": "i64",
+              "identifier": "newlong",
+              "defaultValue": null
+           },
+           {
+              "id": "6",
+              "option": null,
+              "fieldType": "double",
+              "identifier": "newdouble",
+              "defaultValue": null
+           },
+           {
+              "id": "7",
+              "option": null,
+              "fieldType": "Bonk",
+              "identifier": "newstruct",
+              "defaultValue": null
+           },
+           {
+              "id": "8",
+              "option": null,
+              "fieldType": {
+                 "type": "list",
+                 "fieldType": "i32"
+              },
+              "identifier": "newlist",
+              "defaultValue": null
+           },
+           {
+              "id": "9",
+              "option": null,
+              "fieldType": {
+                 "type": "set",
+                 "fieldType": "i32"
+              },
+              "identifier": "newset",
+              "defaultValue": null
+           },
+           {
+              "id": "10",
+              "option": null,
+              "fieldType": {
+                 "type": "map",
+                 "keyFieldType": "i32",
+                 "valueFieldType": "i32"
+              },
+              "identifier": "newmap",
+              "defaultValue": null
+           },
+           {
+              "id": "11",
+              "option": null,
+              "fieldType": "string",
+              "identifier": "newstring",
+              "defaultValue": null
+           },
+           {
+              "id": "12",
+              "option": null,
+              "fieldType": "i32",
+              "identifier": "end_in_both",
+              "defaultValue": null
+           }
+        ]
+     },
+     {
+        "type": "struct",
+        "identifier": "ListTypeVersioningV1",
+        "fields": [
+           {
+              "id": "1",
+              "option": null,
+              "fieldType": {
+                 "type": "list",
+                 "fieldType": "i32"
+              },
+              "identifier": "myints",
+              "defaultValue": null
+           },
+           {
+              "id": "2",
+              "option": null,
+              "fieldType": "string",
+              "identifier": "hello",
+              "defaultValue": null
+           }
+        ]
+     },
+     {
+        "type": "struct",
+        "identifier": "ListTypeVersioningV2",
+        "fields": [
+           {
+              "id": "1",
+              "option": null,
+              "fieldType": {
+                 "type": "list",
+                 "fieldType": "string"
+              },
+              "identifier": "strings",
+              "defaultValue": null
+           },
+           {
+              "id": "2",
+              "option": null,
+              "fieldType": "string",
+              "identifier": "hello",
+              "defaultValue": null
+           }
+        ]
+     },
+     {
+        "type": "struct",
+        "identifier": "GuessProtocolStruct",
+        "fields": [
+           {
+              "id": "7",
+              "option": null,
+              "fieldType": {
+                 "type": "map",
+                 "keyFieldType": "string",
+                 "valueFieldType": "string"
+              },
+              "identifier": "map_field",
+              "defaultValue": null
+           }
+        ]
+     },
+     {
+        "type": "struct",
+        "identifier": "LargeDeltas",
+        "fields": [
+           {
+              "id": "1",
+              "option": null,
+              "fieldType": "Bools",
+              "identifier": "b1",
+              "defaultValue": null
+           },
+           {
+              "id": "10",
+              "option": null,
+              "fieldType": "Bools",
+              "identifier": "b10",
+              "defaultValue": null
+           },
+           {
+              "id": "100",
+              "option": null,
+              "fieldType": "Bools",
+              "identifier": "b100",
+              "defaultValue": null
+           },
+           {
+              "id": "500",
+              "option": null,
+              "fieldType": "bool",
+              "identifier": "check_true",
+              "defaultValue": null
+           },
+           {
+              "id": "1000",
+              "option": null,
+              "fieldType": "Bools",
+              "identifier": "b1000",
+              "defaultValue": null
+           },
+           {
+              "id": "1500",
+              "option": null,
+              "fieldType": "bool",
+              "identifier": "check_false",
+              "defaultValue": null
+           },
+           {
+              "id": "2000",
+              "option": null,
+              "fieldType": "VersioningTestV2",
+              "identifier": "vertwo2000",
+              "defaultValue": null
+           },
+           {
+              "id": "2500",
+              "option": null,
+              "fieldType": {
+                 "type": "set",
+                 "fieldType": "string"
+              },
+              "identifier": "a_set2500",
+              "defaultValue": null
+           },
+           {
+              "id": "3000",
+              "option": null,
+              "fieldType": "VersioningTestV2",
+              "identifier": "vertwo3000",
+              "defaultValue": null
+           },
+           {
+              "id": "4000",
+              "option": null,
+              "fieldType": {
+                 "type": "list",
+                 "fieldType": "i32"
+              },
+              "identifier": "big_numbers",
+              "defaultValue": null
+           }
+        ]
+     },
+     {
+        "type": "struct",
+        "identifier": "NestedListsI32x2",
+        "fields": [
+           {
+              "id": "1",
+              "option": null,
+              "fieldType": {
+                 "type": "list",
+                 "fieldType": {
+                    "type": "list",
+                    "fieldType": "i32"
+                 }
+              },
+              "identifier": "integerlist",
+              "defaultValue": null
+           }
+        ]
+     },
+     {
+        "type": "struct",
+        "identifier": "NestedListsI32x3",
+        "fields": [
+           {
+              "id": "1",
+              "option": null,
+              "fieldType": {
+                 "type": "list",
+                 "fieldType": {
+                    "type": "list",
+                    "fieldType": {
+                       "type": "list",
+                       "fieldType": "i32"
+                    }
+                 }
+              },
+              "identifier": "integerlist",
+              "defaultValue": null
+           }
+        ]
+     },
+     {
+        "type": "struct",
+        "identifier": "NestedMixedx2",
+        "fields": [
+           {
+              "id": "1",
+              "option": null,
+              "fieldType": {
+                 "type": "list",
+                 "fieldType": {
+                    "type": "set",
+                    "fieldType": "i32"
+                 }
+              },
+              "identifier": "int_set_list",
+              "defaultValue": null
+           },
+           {
+              "id": "2",
+              "option": null,
+              "fieldType": {
+                 "type": "map",
+                 "keyFieldType": "i32",
+                 "valueFieldType": {
+                    "type": "set",
+                    "fieldType": "string"
+                 }
+              },
+              "identifier": "map_int_strset",
+              "defaultValue": null
+           },
+           {
+              "id": "3",
+              "option": null,
+              "fieldType": {
+                 "type": "list",
+                 "fieldType": {
+                    "type": "map",
+                    "keyFieldType": "i32",
+                    "valueFieldType": {
+                       "type": "set",
+                       "fieldType": "string"
+                    }
+                 }
+              },
+              "identifier": "map_int_strset_list",
+              "defaultValue": null
+           }
+        ]
+     },
+     {
+        "type": "struct",
+        "identifier": "ListBonks",
+        "fields": [
+           {
+              "id": "1",
+              "option": null,
+              "fieldType": {
+                 "type": "list",
+                 "fieldType": "Bonk"
+              },
+              "identifier": "bonk",
+              "defaultValue": null
+           }
+        ]
+     },
+     {
+        "type": "struct",
+        "identifier": "NestedListsBonk",
+        "fields": [
+           {
+              "id": "1",
+              "option": null,
+              "fieldType": {
+                 "type": "list",
+                 "fieldType": {
+                    "type": "list",
+                    "fieldType": {
+                       "type": "list",
+                       "fieldType": "Bonk"
+                    }
+                 }
+              },
+              "identifier": "bonk",
+              "defaultValue": null
+           }
+        ]
+     },
+     {
+        "type": "struct",
+        "identifier": "BoolTest",
+        "fields": [
+           {
+              "id": "1",
+              "option": "optional",
+              "fieldType": "bool",
+              "identifier": "b",
+              "defaultValue": "true"
+           },
+           {
+              "id": "2",
+              "option": "optional",
+              "fieldType": "string",
+              "identifier": "s",
+              "defaultValue": "\"true\""
+           }
+        ]
+     },
+     {
+        "type": "struct",
+        "identifier": "StructA",
+        "fields": [
+           {
+              "id": "1",
+              "option": "required",
+              "fieldType": "string",
+              "identifier": "s",
+              "defaultValue": null
+           }
+        ]
+     },
+     {
+        "type": "struct",
+        "identifier": "StructB",
+        "fields": [
+           {
+              "id": "1",
+              "option": "optional",
+              "fieldType": "StructA",
+              "identifier": "aa",
+              "defaultValue": null
+           },
+           {
+              "id": "2",
+              "option": "required",
+              "fieldType": "StructA",
+              "identifier": "ab",
+              "defaultValue": null
+           }
+        ]
+     }
+  ]
+}

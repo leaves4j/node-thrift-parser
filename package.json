@@ -1,0 +1,30 @@
+{
+  "name": "node-thrift-parser",
+  "version": "0.0.1",
+  "description": "Parse thrift IDL to an AST",
+  "main": "index.js",
+  "scripts": {
+    "build": "pegjs -o lib/parser.js --format commonjs lib/thrift.pegjs",
+    "test": "npm run build & ava test",
+    "preversion": "npm test",
+    "version": "git add -A",
+    "postversion": "git push && git push --tags"
+  },
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "keywords": [
+    "thrift",
+    "parser",
+    "thrift parser",
+    "AST"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "pegjs": "^0.10.0"
+  }
+}
