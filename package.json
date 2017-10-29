@@ -1,6 +1,6 @@
 {
   "name": "node-thrift-parser",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Parse thrift IDL to an AST",
   "main": "index.js",
   "scripts": {
