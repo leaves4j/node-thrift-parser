@@ -20,9 +20,15 @@
     "thrift parser",
     "AST"
   ],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {},
+  "author": {
+    "name": "leaves4j",
+    "email": "jiangq.leaves@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/leaves4j/node-thrift-parser.git"
+  },
+  "license": "MIT",
   "devDependencies": {
     "ava": "^0.23.0",
     "pegjs": "^0.10.0"
