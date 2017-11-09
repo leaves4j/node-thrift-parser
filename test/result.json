@@ -495,7 +495,7 @@
               "identifier": "testVoid",
               "oneway": null,
               "args": [],
-              "throws": null
+              "throws": []
            },
            {
               "type": "function",
@@ -511,7 +511,7 @@
                     "defaultValue": null
                  }
               ],
-              "throws": null
+              "throws": []
            },
            {
               "type": "function",
@@ -527,7 +527,7 @@
                     "defaultValue": null
                  }
               ],
-              "throws": null
+              "throws": []
            },
            {
               "type": "function",
@@ -543,7 +543,7 @@
                     "defaultValue": null
                  }
               ],
-              "throws": null
+              "throws": []
            },
            {
               "type": "function",
@@ -559,7 +559,7 @@
                     "defaultValue": null
                  }
               ],
-              "throws": null
+              "throws": []
            },
            {
               "type": "function",
@@ -575,7 +575,7 @@
                     "defaultValue": null
                  }
               ],
-              "throws": null
+              "throws": []
            },
            {
               "type": "function",
@@ -591,7 +591,7 @@
                     "defaultValue": null
                  }
               ],
-              "throws": null
+              "throws": []
            },
            {
               "type": "function",
@@ -607,7 +607,7 @@
                     "defaultValue": null
                  }
               ],
-              "throws": null
+              "throws": []
            },
            {
               "type": "function",
@@ -623,7 +623,7 @@
                     "defaultValue": null
                  }
               ],
-              "throws": null
+              "throws": []
            },
            {
               "type": "function",
@@ -639,7 +639,7 @@
                     "defaultValue": null
                  }
               ],
-              "throws": null
+              "throws": []
            },
            {
               "type": "function",
@@ -663,7 +663,7 @@
                     "defaultValue": null
                  }
               ],
-              "throws": null
+              "throws": []
            },
            {
               "type": "function",
@@ -687,7 +687,7 @@
                     "defaultValue": null
                  }
               ],
-              "throws": null
+              "throws": []
            },
            {
               "type": "function",
@@ -709,7 +709,7 @@
                     "defaultValue": null
                  }
               ],
-              "throws": null
+              "throws": []
            },
            {
               "type": "function",
@@ -731,7 +731,7 @@
                     "defaultValue": null
                  }
               ],
-              "throws": null
+              "throws": []
            },
            {
               "type": "function",
@@ -747,7 +747,7 @@
                     "defaultValue": null
                  }
               ],
-              "throws": null
+              "throws": []
            },
            {
               "type": "function",
@@ -763,7 +763,7 @@
                     "defaultValue": null
                  }
               ],
-              "throws": null
+              "throws": []
            },
            {
               "type": "function",
@@ -787,7 +787,7 @@
                     "defaultValue": null
                  }
               ],
-              "throws": null
+              "throws": []
            },
            {
               "type": "function",
@@ -811,7 +811,7 @@
                     "defaultValue": null
                  }
               ],
-              "throws": null
+              "throws": []
            },
            {
               "type": "function",
@@ -866,7 +866,7 @@
                     "defaultValue": null
                  }
               ],
-              "throws": null
+              "throws": []
            },
            {
               "type": "function",
@@ -944,7 +944,7 @@
                     "defaultValue": null
                  }
               ],
-              "throws": null
+              "throws": []
            }
         ]
      },
@@ -959,7 +959,7 @@
               "identifier": "blahBlah",
               "oneway": null,
               "args": [],
-              "throws": null
+              "throws": []
            },
            {
               "type": "function",
@@ -975,7 +975,7 @@
                     "defaultValue": null
                  }
               ],
-              "throws": null
+              "throws": []
            }
         ]
      },
