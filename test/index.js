@@ -8,5 +8,5 @@ const astResult = require('./result.json');
 test('parse', t => {
   const thriftFile = fs.readFileSync(path.resolve(__dirname, './thrift/test.thrift'), 'utf8');
   const ast = parse(thriftFile);
-  t.deepEqual(ast, astResult);
+  t.snapshot(ast)
 });

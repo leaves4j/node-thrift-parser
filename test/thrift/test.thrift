@@ -59,7 +59,10 @@ enum Numberz
   EIGHT = 8
 }
 
-const Numberz myNumberz = Numberz.ONE;
+const Numberz myNumberz = Numberz.ONE
+const Xtruct myNumberza = {'string_thing':'123','byte_thing':123}
+const map<i32,string> myNumberza2 = {1:'123',2:'123'}
+const set<i32> mySet = [1,23,45,56]
 // the following is expected to fail:
 // const Numberz urNumberz = ONE;
 
