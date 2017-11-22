@@ -45,7 +45,7 @@ namespace noexist ThriftTest
 namespace cpp.noexist ThriftTest
 
 namespace * thrift.test
-
+include "shared.thrift"
 /**
  * Docstring!
  */
@@ -58,7 +58,7 @@ enum Numberz
   SIX,
   EIGHT = 8
 }
-
+const shared.SharedStruct test234 = {}
 const Numberz myNumberz = Numberz.ONE
 const Xtruct myNumberza = {'string_thing':'123','byte_thing':123}
 const map<i32,string> myNumberza2 = {1:'123',2:'123'}

@@ -6,6 +6,7 @@
   "scripts": {
     "build": "pegjs -o lib/parser.js --format commonjs lib/thrift.pegjs",
     "test": "npm run build & ava test",
+    "test-update": "ava --update-snapshots",
     "preversion": "npm test",
     "version": "git add -A",
     "postversion": "git push && git push --tags"
